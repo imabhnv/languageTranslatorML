@@ -32,32 +32,23 @@ A deep learning-based sequence-to-sequence model that **translates English sente
 ## 📁 Directory Structure
 
 DualLanguageTranslator/
-│
 ├── data/
-│ ├── english.csv
-│ ├── french.csv
-│ └── hindi.csv
-│
+│   ├── english.csv
+│   ├── french.csv
+│   └── hindi.csv
 ├── model/
-│ ├── model_en_fr.h5
-│ ├── model_en_hi.h5
-│ ├── encoder_fr.h5
-│ ├── decoder_fr.h5
-│ ├── encoder_hi.h5
-│ ├── decoder_hi.h5
-│
-├── eng_tokenizer.pkl
-├── fr_tokenizer.pkl
-├── hi_tokenizer.pkl
-│
+│   ├── model_en_fr.h5
+│   ├── model_en_hi.h5
+│   ├── encoder_fr.h5
+│   ├── decoder_fr.h5
+│   ├── encoder_hi.h5
+│   ├── decoder_hi.h5
+│   ├── eng_tokenizer.pkl
+│   ├── fr_tokenizer.pkl
+│   └── hi_tokenizer.pkl
 ├── training.py
 ├── dual_language_gui.py
 └── README.md
-
-markdown
-Always show details
-
-Copy
 
 ---
 
@@ -92,24 +83,12 @@ Install the necessary dependencies:
 ```bash
 pip install tensorflow numpy
 Optional:
-
-bash
-Always show details
-
-Copy
 pip install pillow
 💻 How to Run
 ➤ Train the Models
-bash
-Always show details
-
-Copy
 python training.py
 ➤ Run the GUI Translator
-bash
-Always show details
 
-Copy
 python dual_language_gui.py
 ✅ Input Criteria
 English sentence must be at least 10 characters long.
